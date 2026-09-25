@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>VERDÉ — Sustainable Kitchenware</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+
+  <header class="navbar">
+
+    <a href="#" class="logo">VERDÉ</a>
+
+    <nav class="desktop-nav">
+      <a href="#shop">Shop</a>
+      <a href="#bestsellers">Bestsellers</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <div class="nav-right">
+
+      <div class="search-box">
+        <span>⌕</span>
+        <input type="text" id="searchInput" placeholder="Search Product...">
+      </div>
+
+      <button class="icon-btn" id="cartBtn">
+        🛒
+        <span id="cartCount">0</span>
+      </button>
+
+      <button class="icon-btn">♙</button>
+
+    </div>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+  </header>
+
+
+  <!-- MOBILE MENU -->
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#shop">Shop</a>
+    <a href="#bestsellers">Bestsellers</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+  </div>
+
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <div class="hero-text">
+
+          <span class="eyebrow">NATURAL • SUSTAINABLE • TIMELESS</span>
+
+          <h1>
+            Eco-Friendly
+            <em>Kitchenware</em>
+            for a greener home
+          </h1>
+
+          <p>
+            Thoughtfully designed kitchen essentials made with
+            natural materials and a commitment to a better planet.
+          </p>
+
+          <a href="#shop" class="primary-btn">
+            Shop Now <span>→</span>
+          </a>
+
+        </div>
+
+        <div class="eco-card">
+
+          <span>Natural.</span>
+          <span>Sustainable.</span>
+          <span>Eco-conscious.</span>
+
+          <strong>96%</strong>
+
+          <small>Planet-friendly materials</small>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= FEATURED PRODUCTS ================= -->
+
+    <section class="section" id="shop">
+
+      <div class="section-heading">
+
+        <div>
+          <span class="eyebrow">ECO ESSENTIALS</span>
+
+          <h2>
+            Planet-Friendly
+            <em>Products</em>
+          </h2>
+        </div>
+
+        <a href="#" class="text-link">
+          More products →
+        </a>
+
+      </div>
+
+
+      <div class="product-grid" id="productGrid">
+
+        <!-- PRODUCT 1 -->
+
+        <article class="product-card">
+
+          <div class="product-image">
+
+            <span class="tag">Promotion</span>
+
+            <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=85">
+
+          </div>
+
+          <div class="product-info">
+
+            <div class="dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <h3>Reusable Drinkware</h3>
+
+            <p>Reusable drinkware for a greener lifestyle.</p>
+
+            <div class="product-bottom">
+
+              <strong>$43.85</strong>
+
+              <button class="add-btn">+ Cart</button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- PRODUCT 2 -->
+
+        <article class="product-card">
+
+          <div class="product-image">
+
+            <span class="tag">New</span>
+
+            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=85"
+              alt="Non-Toxic Cookware">
+
+          </div>
+
+          <div class="product-info">
+
+            <div class="dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <h3>Non-Toxic Cookware</h3>
+
+            <p>Safe cookware for sustainable cooking.</p>
+
+            <div class="product-bottom">
+
+              <strong>$78.35</strong>
+
+              <button class="add-btn">+ Cart</button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- PRODUCT 3 -->
+
+        <article class="product-card">
+
+          <div class="product-image">
+
+            <span class="tag">Customer Favorite</span>
+
+            <img src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=700&q=85"
+              alt="Eco Kettle">
+
+          </div>
+
+          <div class="product-info">
+
+            <div class="dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <h3>Eco Kettle</h3>
+
+            <p>Minimal design for everyday meals.</p>
+
+            <div class="product-bottom">
+
+              <strong>$143.65</strong>
+
+              <button class="add-btn">+ Cart</button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- PRODUCT 4 -->
+
+        <article class="product-card">
+
+          <div class="product-image">
+
+            <span class="tag">New</span>
+
+            <img src="https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=700&q=85">
+
+          </div>
+
+          <div class="product-info">
+
+            <div class="dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <h3>Bamboo Utensils</h3>
+
+            <p>Beautiful handmade kitchen essentials.</p>
+
+            <div class="product-bottom">
+
+              <strong>$26.27</strong>
+
+              <button class="add-btn">+ Cart</button>
+
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= BESTSELLERS ================= -->
+
+    <section class="split-section" id="bestsellers">
+
+      <div class="split-image">
+        <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1400&q=85">
+      </div>
+
+      <div class="split-content">
+
+        <span class="eyebrow">OUR FAVORITES</span>
+
+        <h2>
+          Best
+          <em>Sellers</em>
+        </h2>
+
+        <p>
+          Discover the products our customers love most.
+          From reusable essentials to beautifully crafted
+          cookware, every piece is made with purpose.
+        </p>
+
+        <a href="#shop" class="primary-btn">
+          Shop Bestsellers →
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= NEW ARRIVAL ================= -->
+
+    <section class="arrival">
+
+      <div class="arrival-text">
+
+        <span class="eyebrow">JUST IN</span>
+
+        <h2>
+          New
+          <em>Arrivals</em>
+        </h2>
+
+        <p>
+          Fresh designs and thoughtful kitchen essentials
+          made for modern sustainable living.
+        </p>
+
+        <a href="#shop" class="dark-btn">
+          Explore Collection →
+        </a>
+
+      </div>
+
+      <div class="arrival-image">
+
+        <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85">
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= GALLERY ================= -->
+
+    <section class="section gallery-section" id="gallery">
+
+      <div class="section-heading">
+
+        <div>
+          <span class="eyebrow">INSPIRE YOUR SPACE</span>
+
+          <h2>
+            Thoughtful
+            <em>Ideas</em>
+          </h2>
+        </div>
+
+      </div>
+
+
+      <div class="gallery-grid">
+
+        <div class="gallery-item large">
+          <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1000&q=85">
+          <span>Natural Kitchen</span>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=700&q=85">
+          <span>Wooden Essentials</span>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?auto=format&fit=crop&w=700&q=85">
+          <span>Daily Essentials</span>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1556912167-f556f1f39fdf?auto=format&fit=crop&w=700&q=85">
+          <span>Modern Living</span>
+        </div>
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1679939153963-ff44f5deeba2?q=80&w=687&auto=format&fit=crop&w=700&qixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Sustainable Kitchen">
+          <span>Sustainable Kitchen</span>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ================= REVIEWS ================= -->
+
+    <section class="reviews">
+
+      <div class="review-header">
+
+        <span class="eyebrow">CUSTOMER LOVE</span>
+
+        <h2>What our customers say</h2>
+
+        <div class="rating">
+          ★★★★★
+          <span>4.9 / 5</span>
+        </div>
+
+      </div>
+
+
+      <div class="review-grid">
+
+        <article class="review-card">
+
+          <div>★★★★★</div>
+
+          <p>
+            “Beautiful products and an amazing attention to detail.
+            Everything feels premium and sustainable.”
+          </p>
+
+          <strong>Jane Cooper</strong>
+          <small>Nutritionist</small>
+
+        </article>
+
+
+        <article class="review-card">
+
+          <div>★★★★★</div>
+
+          <p>
+            “The quality is fantastic. I love that the products
+            look beautiful while being environmentally conscious.”
+          </p>
+
+          <strong>Darlene Robertson</strong>
+          <small>Food Blogger</small>
+
+        </article>
+
+
+        <article class="review-card">
+
+          <div>★★★★★</div>
+
+          <p>
+            “A wonderful collection for anyone trying to create
+            a more thoughtful and sustainable kitchen.”
+          </p>
+
+          <strong>Jacob Jones</strong>
+          <small>Chef</small>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT / SUSTAINABILITY ================= -->
+
+    <section class="sustainability" id="about">
+
+      <div class="sustainability-image">
+
+        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85">
+
+      </div>
+
+      <div class="sustainability-content">
+
+        <span class="eyebrow">OUR PHILOSOPHY</span>
+
+        <h2>
+          A greener
+          <em>way to cook.</em>
+        </h2>
+
+        <p>
+          We believe the products we use every day should be
+          beautiful, useful and kinder to the planet.
+        </p>
+
+        <p>
+          That's why every VERDÉ product is thoughtfully selected
+          with sustainable materials and long-term use in mind.
+        </p>
+
+        <div class="stats">
+
+          <div>
+            <strong>96%</strong>
+            <span>Sustainable materials</span>
+          </div>
+
+          <div>
+            <strong>25K+</strong>
+            <span>Happy customers</span>
+          </div>
+
+          <div>
+            <strong>30+</strong>
+            <span>Eco products</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <div class="footer-main">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">VERDÉ</a>
+
+        <p>
+          Thoughtful kitchenware for a greener,
+          more beautiful home.
+        </p>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>Shop</h4>
+
+        <a href="#">Cookware</a>
+        <a href="#">Drinkware</a>
+        <a href="#">Utensils</a>
+        <a href="#">New Arrivals</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>Company</h4>
+
+        <a href="#">About Us</a>
+        <a href="#">Our Story</a>
+        <a href="#">Sustainability</a>
+        <a href="#">Contact</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>Follow</h4>
+
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="#">Facebook</a>
+        <a href="#">LinkedIn</a>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <span>© 2026 VERDÉ. Concept website by WEBMEK.</span>
+
+      <span>Made for a greener home.</span>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
